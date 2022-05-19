@@ -11,6 +11,8 @@ body {
 }
 .list {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* Header */
@@ -44,7 +46,7 @@ body {
 .navi-link:focus {
   color: var(--accent-color);
 }
-.link-active {
+.navi-link.link-active {
   color: var(--accent-color);
 }
 .contact-link {
@@ -84,7 +86,7 @@ body {
 }
 .button-service:hover,
 .button-service:focus {
-  background-color: #2196f380;
+  background-color: #188ce8;
 }
 
 /* features */
@@ -187,7 +189,7 @@ body {
   letter-spacing: 0.03em;
   text-decoration: none;
 }
-.geo {
+.address-link.geo {
   color: #ffffff;
 }
 
