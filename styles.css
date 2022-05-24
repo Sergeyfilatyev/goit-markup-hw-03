@@ -28,8 +28,10 @@ body {
   padding-left: 15px;
   padding-right: 15px;
 }
-.image {
+img {
   display: block;
+  max-width: 100%;
+  height: auto;
 }
 .section {
   padding-top: 94px;
@@ -174,9 +176,6 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-.features {
-  padding-top: 94px;
-}
 .features-list {
   display: flex;
   flex-wrap: wrap;
@@ -206,7 +205,9 @@ body {
 }
 
 /* Work */
-
+.work.section {
+  padding-top: 0;
+}
 .work-title {
   margin: 0 0 50px 0;
   padding: 0;
